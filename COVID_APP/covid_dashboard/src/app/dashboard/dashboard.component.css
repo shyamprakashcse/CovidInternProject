@@ -1,0 +1,111 @@
+.jumbotron {
+ font-family: 'Times New Roman', Times, serif; 
+ font-weight: bold;
+ background-color: rgb(255, 210, 151); 
+ color:black;
+ text-align: center; 
+ padding:1%; 
+ margin-bottom: 2%;
+ height:50px;
+}
+
+
+
+.death{
+    background-color: rgba(255, 130, 130, 0.911); 
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.death h3{
+    color:rgb(235, 14, 14)
+}
+.death span{
+    color:rgb(51, 37, 37)
+}
+
+.confirm{
+    background-color: #0000FF; 
+    font-family: Arial, Helvetica, sans-serif; 
+    color:white;
+}
+.confirm h3{
+    color:white; 
+}
+.confirm span{
+    color:rgb(163, 160, 160);
+}
+
+.recover{
+    /* background-color: #FBAB7E; */
+    background-color:rgb(132, 243, 132); 
+    color:#031322;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.casehistory{
+    /* display:flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: flex-start;  */
+    /* border: 2px solid red;  */ 
+
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    row-gap: 20px;
+    column-gap: 20px;
+   
+    
+} 
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 40px 40px -7px;  
+    width:300px; 
+    cursor: pointer;
+    
+}
+.card:hover{
+    transform: scale(0.98);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.active{
+    background-color: #fbf97e; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tabulate{
+    margin-top:10%;
+}
+
+.box-shadow{
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 40px 40px -7px;  
+}
+
+.my-pagination /deep/ .ngx-pagination .current {
+    background: blue;
+    color: white;
+}
+
+.ngx-pagination{
+    order:1;
+}
+
+
+
+
+.my-pagination{
+    position: sticky; 
+    color:#05083f;
+    font-weight: bold; 
+    margin-top:30px;
+     
+    text-align: center;
+  }
+
+.loader{
+    color:rgb(233, 233, 243); 
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
